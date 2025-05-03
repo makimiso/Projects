@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miso Maki - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <style>
+    
+    .section {
+      display: none; 
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 15px;
+      margin: 5px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <h1>Miso Maki</h1>
+    <p>Business Information Technology Student</p>
+  </header>
+
+
+  <nav>
+    <ul>
+      <li><button onclick="toggleSection('about')">About Me</button></li>
+      <li><button onclick="toggleSection('skills')">Skills</button></li>
+      <li><button onclick="toggleSection('projects')">Projects</button></li>
+      <li><button onclick="toggleSection('resume')">Resume</button></li>
+      <li><button onclick="toggleSection('contact')">Contact</button></li>
+    </ul>
+  </nav>
+
+  
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <img src="headshot1.jpg" alt="Miso Maki" style="width: 150px; border-radius: 50%; display: block; margin-bottom: 1rem;" />
+    <p>
+      Hi! I'm Miso Maki, a third-year Business Information Technology student at the University of Johannesburg. I'm passionate about web development, UI/UX design, and building tech solutions that make life easier — especially in South Africa. I’m also developing my skills in full-stack web and mobile app development.
+    </p>
+  </section>
+
+  
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <p>I'm Proficient in:</p>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React & React Native</li>
+      <li>UI/UX Design (Figma)</li>
+      <li>SQL</li>
+    </ul>
+  </section>
+
+ 
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Travel Guide App</h3>
+      <p>A mobile app that helps tourists discover destinations, accommodations, restaurants, and weather updates — built using React Native and Firebase.</p>
+      <img src="project1.jpg" alt="project 1 picture" style="width: 150px; display: block; margin-bottom: 1rem;" />
+
+    </div>
+
+    <div class="project">
+      <h3>MovieHub</h3>
+      <p>A website where users can find movies they like and provides them with streaming platforms or theaters they can find the movies at.</p>
+      <img src="project2.jpg" alt="project 2 picture" style="width: 150px; border-radius: 50%; display: block; margin-bottom: 1rem;" />
+
+    </div>
+
+    
+  </section>
+
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <p>You can view or download my resume below:</p>
+    <a href="MisoMaki.pdf" download style="text-decoration: none;">
+      <button>Download Resume</button>
+    </a>
+  </section>
+
+ 
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p><i class="fas fa-envelope"></i> Email: mihlemaki09@gmail.com</p>
+    <p><i class="fas fa-phone-alt"></i> Phone: +27785725219</p>
+    <p><i class="fas fa-map-marker-alt"></i> Location: Johannesburg</p>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 Miso Maki. All rights reserved.</p>
+  </footer>
+
+  <button id="backToTop">Back to Top</button>
+  <script>
+   
+    function toggleSection(sectionId) {
+      
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => section.style.display = 'none');
+
+      
+      const selectedSection = document.getElementById(sectionId);
+      selectedSection.style.display = 'block';
+    }
+
+    
+    const backToTop = document.getElementById("backToTop");
+  
+    window.onscroll = () => {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        backToTop.style.display = "block";
+      } else {
+        backToTop.style.display = "none";
+      }
+    };
+  
+    backToTop.onclick = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    
+    window.onload = () => toggleSection('about');
+  </script>
+
+</body>
+</html>
