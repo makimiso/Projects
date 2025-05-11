@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blue;
+    color: black;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  .logo-text {
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  .hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: dimgray;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background-color: darkorange;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+ 
+  section {
+    padding: 4rem 2rem;
+  }
+  
+  .about, .internships, .contact {
+    background-color: whitesmoke;
+    margin: 2rem 0;
+  }
+  
+  .internship-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 2px 2px 5px gray;
+  }
+  
+  .card h3 {
+    color: darkblue;
+  }
+  
+  
+  footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
