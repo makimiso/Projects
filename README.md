@@ -8,7 +8,7 @@ This repository contains a collection of web development projects I've built to 
 
 ### ✅ Project 1: Landing Page
 A responsive and modern landing page built using HTML and CSS.  
-🔗 [Live Demo](https://makimismo.github.io/Projects/Task1/)  
+🔗 [Live Demo](https://makimiso.github.io/Projects/Task1)
 📁 [Code Folder](./Task1)
 
 ---
@@ -28,7 +28,7 @@ A basic calculator inspired by the **iOS Calculator**, styled in black and yello
 - Percentage calculation
 - Responsive design
 
-🔗 [Live Demo](https://makimismo.github.io/Projects/Task3/)  
+🔗 [Live Demo](https://makimiso.github.io/Projects/Task3)
 📁 [Code Folder](./Task3)
 
 ---
