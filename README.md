@@ -15,7 +15,7 @@ A responsive and modern landing page built using HTML and CSS.
 
 ### ✅ Project 2: Portfolio Website
 A personal portfolio website showcasing my projects, skills, and contact details.  
-🔗 [Live Demo](https://makimismo.github.io/Projects/Level%202/)  
+🔗 [Live Demo](https://makimiso.github.io/Projects/Level%202/) 
 📁 [Code Folder](./Level%202)
 
 ---
@@ -48,5 +48,5 @@ Hi, I’m **Miso Maki**, a third-year Business Information Technology student at
 
 ## 📫 Contact
 - 📧 Email: mihlemaki09@gmail.com  
-- 🌐 Portfolio: [Visit Portfolio](https://makimismo.github.io/Projects/Level%202/)  
+- 🌐 Portfolio: [Visit Portfolio](https://makimiso.github.io/Projects/Level%202/) 
 - 🔗 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/miso-maki-a31216326)
