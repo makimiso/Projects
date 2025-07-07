@@ -49,4 +49,4 @@ Hi, I’m **Miso Maki**, a third-year Business Information Technology student at
 ## 📫 Contact
 - 📧 Email: mihlemaki09@gmail.com  
 - 🌐 Portfolio: [Visit Portfolio](https://makimismo.github.io/Projects/Level%202/)  
-- 🔗 LinkedIn: [LinkedIn Profile](www.linkedin.com/in/miso-maki-a31216326)
+- 🔗 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/miso-maki-a31216326)
